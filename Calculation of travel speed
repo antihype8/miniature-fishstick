@@ -1,0 +1,10 @@
+def calculate_travel_speed(distance, time):
+    speed = distance / time
+    return speed
+
+distance = float(input("Enter the distance (in kilometers): "))
+time = float(input("Enter the time taken (in hours): "))
+
+speed = calculate_travel_speed(distance, time)
+
+print("The travel speed is", speed, "kilometers per hour.")
